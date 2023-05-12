@@ -182,3 +182,39 @@ body{
         opacity: 1;
     }
 }
+@media screen and (max-width:500px) {
+    .weather-box .temperature{
+        font-size: 3rem;
+    }
+    .container{
+        width:320px;
+    }
+    .weather-details .humidity{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:370px) {
+    .weather-box .temperature{
+        font-size: 2.6rem;
+    }
+    .container{
+        width:280px;
+    }
+    .weather-details  {
+        flex-direction: column;
+    }
+    .weather-details .wind{
+        margin-left: 49px;
+    }
+}
+@media screen and (max-width:315px) {
+    .weather-box .temperature{
+        font-size: 2.1rem;
+    }
+    .container{
+        width:220px;
+    }
+    .weather-details .wind{
+        margin-left: 68px;
+    }
+}
