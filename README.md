@@ -13,3 +13,9 @@ After installation run npm start
 
 
 NOTE :- Both terminal must be running concurrently
+
+After starting server redirect to chrome
+
+Enter city and click on search icon
+
+wait ans you see the result
